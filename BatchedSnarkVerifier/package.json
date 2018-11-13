@@ -1,0 +1,15 @@
+{
+  "name": "batchedsnarkverifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bn.js": "^4.11.8",
+    "truffle": "^5.0.0-beta.1"
+  }
+}

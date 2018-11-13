@@ -84,20 +84,14 @@ Carefull usage of `r[0] = 1` will also bring costs down.
 
 ## Implementation results
 
-These tests are for **two** public inputs (should be roughly 40 000 gas less than estimations above) and uses `r[0] = 1` optimization.
+These tests are for **three** public inputs and uses `r[0] = 1` optimization.
 
-- Verification of single proof using non-batching verifier requires gas: 601248
-
-- Verification of a single proof using batching verifier requires gas: 691585
-
-- Verification of two proofs using batching verifier requires gas: 879079
-
-- Verification of three proofs using batching verifier requires gas: 1066574
+- Verification of 1 proof using batching verifier requires gas: 737684
+- Verification of 2 proofs using batching verifier requires gas: 924385
+- Verification of 3 proofs using batching verifier requires gas: 1111151
+- Verification of 4 proofs using batching verifier requires gas: 1297855
+- Verification of 5 proofs using batching verifier requires gas: 1484433
 
 ## Author
 
 Alex Vlasov, [@shamatar](https://github.com/shamatar),  alex.m.vlasov@gmail.com
-
-## WIP implementation
-
-Link is coming!
