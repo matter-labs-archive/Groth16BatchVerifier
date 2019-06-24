@@ -2,7 +2,7 @@
 
 Short explainer of how SNARK for transaction aggregation can be verified more efficiently on-chain. It allows the trade-off "100 mil constraints + one SNARK verification <=> few proofs of 10 mil constraints + batched verification". 
 
-Full construction description is [here](./BatchedGroth16.md). 
+Full construction description is [here](https://github.com/matter-labs/Groth16BatchVerifier/blob/master/BatchedGroth16.md). 
 
 ## Implementation results
 
@@ -16,7 +16,7 @@ These tests are for **three** public inputs and uses `r[0] = 1` optimization.
 
 ## License
 
-Implementation code available under the Apache License 2.0 license. See the [LICENSE](https://github.com/matterinc/Groth16BatchVerifier/LICENSE.md) for details.
+Implementation code available under the Apache License 2.0 license. See the [LICENSE](https://github.com/matter-labs/Groth16BatchVerifier/LICENSE.md) for details.
 
 ## Author
 
